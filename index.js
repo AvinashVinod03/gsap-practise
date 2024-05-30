@@ -30,16 +30,16 @@ gsap.from(".box2", {
     }
 })
 
-// gsap.to("#page3 .boxes", {
-//     duration: 4,
-//     // rotate: 360,
-//     transform: "translateX(-400%)",
-//     scrollTrigger: {
-//         trigger: "#page3",
-//         scroller: "body",
-//         markers: true,
-//         start: "top 0%",
-//         scrub: 2,
-//         pin: true
-//     }
-// })
+gsap.to("#page3 .boxes", {
+    duration: 4,
+    // rotate: 360,
+    transform: "translateX(-400%)",
+    scrollTrigger: {
+        trigger: "#page3",
+        scroller: "body",
+        markers: true,
+        start: "top 0%",
+        scrub: 2,
+        pin: true
+    }
+})

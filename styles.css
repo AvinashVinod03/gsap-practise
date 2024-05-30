@@ -15,7 +15,6 @@ body {
     background-color: red;
     min-height: 100vh;
     width: 100%;
-    overflow-x: hidden;
 }
 
 #page1, 
@@ -39,9 +38,10 @@ body {
 
 #page3 {
     background-color: #450909;
+    max-width: 100vw ;
+    overflow-x: hidden;
 
-    /* display: flex; */
-    display: none;
+    display: flex;
 }
 
 #page4 {
