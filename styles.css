@@ -5,15 +5,16 @@
     margin: 0;
     padding: 0;
 }
-
+/* 
 body, html {
     height: 100%;
     width: 100vw;
-}
+} */
 
 body {
     background-color: red;
     min-height: 100vh;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -39,7 +40,8 @@ body {
 #page3 {
     background-color: #450909;
 
-    display: flex;
+    /* display: flex; */
+    display: none;
 }
 
 #page4 {
